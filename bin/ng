@@ -1,6 +1,39 @@
 #!/usr/bin/env node
 'use strict';
 
+// var Liftoff = require('liftoff');
+// var argv = require('minimist')(process.argv.slice(2));
+// require('./../lib/utils/debug');
+
+// // set env var for ORIGINAL cwd
+// // before anything touches it
+// process.env.INIT_CWD = process.cwd();
+
+// var cli = new Liftoff({
+//   name: 'ng',
+//   processTitle: 'ng',
+//   moduleName: 'ng-cli',
+//   configName: 'ngfactory',
+//   extensions: {
+//     '.js': null,
+//     '.json': null,
+//     '.coffee': 'coffee-script/register'
+//   },
+//   nodeFlags: ['--harmony']
+// });
+
+// cli.launch({
+//   cwd: argv.cwd
+// }, function(env) {
+//   dd(env);
+//   require(env.modulePath)({
+//     env: env,
+//     argv: argv,
+//     inputStream: process.stdin,
+//     outputStream: process.stdout
+//   });
+// });
+
 // Provide a title to the process in `ps`
 process.title = 'ng';
 
