@@ -1,6 +1,6 @@
 {
   "name": "ng-cli",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "description": "Command line tool for AngularJS applications",
   "keywords": [
     "yeoman-generator",
@@ -34,12 +34,12 @@
     "semver": "^4.0.0",
     "through2": "^0.6.3",
     "yargs": "^1.3.3",
-    "yeoman-generator": "^0.18.0"
+    "yeoman-generator": "^0.18.0",
+    "generator-ng-factory": "^0.2.3"
   },
   "devDependencies": {
     "mocha": "^1.21.4"
   },
-  "bundledDependencies": [],
   "engines": {
     "node": ">=0.10.0",
     "npm": ">=1.2.10"
