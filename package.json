@@ -1,6 +1,6 @@
 {
   "name": "ng-cli",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "Command line tool for AngularJS applications",
   "keywords": [
     "yeoman-generator",
