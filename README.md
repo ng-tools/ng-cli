@@ -1,45 +1,55 @@
-# generator-angular-bootstrap [![Build Status](https://secure.travis-ci.org/mgcrea/generator-angular-bootstrap.png?branch=master)](https://travis-ci.org/mgcrea/generator-angular-bootstrap)
+# ng-cli
 
-A generator for [Yeoman](http://yeoman.io).
+> The ng tools gateway
 
 
-## Getting Started
-
-### What is Yeoman?
-
-Trick question. It's not a thing. It's this guy:
-
-![](http://i.imgur.com/JHaAlBJ.png)
-
-Basically, he wears a top hat, lives in your computer, and waits for you to tell him what kind of application you wish to create.
-
-Not every new computer comes with a Yeoman pre-installed. He lives in the [npm](https://npmjs.org) package repository. You only have to ask for him once, then he packs up and moves into your hard drive. *Make sure you clean up, he likes new and shiny things.*
+## Installation
 
 ```
-$ npm install -g yo
+$ npm install -g ng-cli
 ```
 
-### Yeoman Generators
+## Usage
 
-Yeoman travels light. He didn't pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.
+```bach
+$ ng --help
 
-To install generator-angular-bootstrap from npm, run:
+  Usage: ng <command> [options]
+
+
+  Commands:
+
+    init    Generates an application/component structure for you in the current folder
+    build   Alias for "gulp build"
+    serve   Alias for "gulp serve"
+
+  Options:
+
+    -h, --help     output usage information
+    -V, --version  output the version number
 
 ```
-$ npm install -g generator-angular-bootstrap
+
+### `ng init`
+
+Bootstrap an angular app using [Yeoman](http://yeoman.io) and our
+[generator-ng-factory](https://github.com/ng-tools/generator-ng-factory).  
+You can pass extra flags to the generator using double-dashes.
+
+```
+ng init -- --app --username=toto 
 ```
 
-Finally, initiate the generator:
+**Note**: don't forget to ``npm i && bower i`` afterward.
 
-```
-$ yo angular-bootstrap
-```
 
-### Getting To Know Yeoman
+### `ng build`
 
-Yeoman has a heart of gold. He's a person with feelings and opinions, but he's very easy to work with. If you think he's too opinionated, he can be easily convinced.
+An alias for `gulp build`
 
-If you'd like to get to know Yeoman better and meet some of his friends, [Grunt](http://gruntjs.com) and [Bower](http://bower.io), check out the complete [Getting Started Guide](https://github.com/yeoman/yeoman/wiki/Getting-Started).
+### `ng serve`
+
+An alias for `gulp serve`
 
 
 ## License
