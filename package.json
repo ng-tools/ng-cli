@@ -25,7 +25,8 @@
     "url": "https://github.com/ng-tools/ng-cli.git"
   },
   "scripts": {
-    "test": "mocha"
+    "lint": "jshint test/*.js lib/**/*.js --reporter=node_modules/jshint-stylish/stylish.js",
+    "test": "npm run lint && mocha"
   },
   "dependencies": {
     "commander": "^2.6.0",
@@ -33,6 +34,8 @@
   },
   "devDependencies": {
     "chai": "^1.10.0",
+    "jshint": "^2.5.11",
+    "jshint-stylish": "^1.0.0",
     "mocha": "^1.21.4",
     "proxyquire": "^1.3.0"
   },
