@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "commander": "^2.6.0",
-    "generator-ng-factory": "^0.3.0"
+    "generator-ng-factory": "^0.3.1"
   },
   "devDependencies": {
     "chai": "^1.10.0",
