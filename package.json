@@ -18,7 +18,7 @@
   },
   "main": "lib/index.js",
   "bin": {
-    "ng": "bin/ng"
+    "ng": "bin/ng.js"
   },
   "repository": {
     "type": "git",
@@ -30,7 +30,11 @@
   },
   "dependencies": {
     "commander": "^2.6.0",
-    "generator-ng-factory": "^0.3.1"
+    "cwd": "^0.6.0",
+    "export-files": "^2.0.1",
+    "generator-ng-factory": "^0.3.1",
+    "load-pkg": "^1.1.3",
+    "resolve-require": "^0.2.0"
   },
   "devDependencies": {
     "chai": "^1.10.0",
