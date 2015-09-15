@@ -3,8 +3,6 @@
   "version": "0.7.0",
   "description": "Command line tool for AngularJS applications",
   "keywords": [
-    "yeoman-generator",
-    "ng-tool",
     "ng-factory",
     "angular",
     "cli"
